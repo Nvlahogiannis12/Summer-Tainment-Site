@@ -1,9 +1,33 @@
 body{
     text-align: center;
+    background-image: url(/imgs/Bermuda_Coast.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 h2 {
     font-weight: bold;
 }
 .words{
-    margin: 20px;;
+    margin: auto;
+    overflow: auto;
+    width: 500px;
+}
+.container{
+    background-color: rgba(128,128,128,0.5);
+}
+.photos{
+    width: 1000px;
+}
+.triangular
+{
+    width: 500px;
+    margin-bottom: 100px;
+}
+#photos{
+    margin-bottom:50px;
+}
+#review{
+    margin-bottom:50px;
 }
